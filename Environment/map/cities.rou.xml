@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Wed 07 Aug 2024 03:38:08 PM CET by Eclipse SUMO netedit Version 1.8.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="/home/marl/marl/simulations/cities/cities.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="/home/marl/marl/simulations/cities/cities.net.xml"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+    <netedit>
+        <additional-files value="/home/marl/marl/simulations/cities/cities.add.xml"/>
+        <route-files value="/home/marl/marl/simulations/cities/cities.rou.xml"/>
+    </netedit>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <route edges="edge1 edge2 edge3 edge4 edge5 edge6 edge7 edge8" color="yellow" id="route_0"/>
+    <route edges="edge15 edge16 edge17 edge18 edge19 edge20 edge21" color="yellow" id="route_3"/>
+    <trip id="vehicle_1" depart="0.00" color="red" from="edge1" to="edge8" via="edge2 edge3 edge4 edge5 edge6 edge7"/>
+    <trip id="vehicle_2" depart="0.00" color="0,128,0" from="edge2" to="edge1" via="edge3 edge4 edge5 edge6 edge7 edge8"/>
+    <!-- <trip id="vehicle_3" depart="0.00" color="blue" from="edge9" to="edge14" via="edge10 edge11 edge12 edge13"/>
+    <trip id="vehicle_4" depart="0.00" color="128,0,128" from="edge10" to="edge9" via="edge11 edge12 edge13 edge14"/>
+    <trip id="vehicle_5" depart="0.00" color="0,0,128" from="edge15" to="edge21" via="edge16 edge17 edge18 edge19 edge20"/>
+    <trip id="vehicle_6" depart="0.00" color="black" from="edge16" to="edge15" via="edge17 edge18 edge19 edge20 edge21"/>-->
+    
+</routes>
